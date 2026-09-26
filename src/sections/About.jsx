@@ -3,12 +3,12 @@ import { ArrowUpRight } from 'lucide-react';
 
 export default function About() {
   const introParagraphs = [
-    "I'm a Full-Stack Developer focused on building modern web applications and practical <span className=\"inline-block text-lg md:text-xl 4xl:text-2xl 5xl:text-3xl font-black bg-gradient-to-r from-cyan-300 via-blue-500 to-violet-500 bg-clip-text text-transparent px-2 py-1 rounded-lg shadow-[0_0_24px_rgba(59,130,246,0.65)] border border-cyan-400/40\">AI-driven</span> solutions.",
+    "I'm a Full-Stack Developer + 7 years of experience focused on building modern web applications and practical <span className=\"inline-block text-lg md:text-xl 4xl:text-2xl 5xl:text-3xl font-black bg-gradient-to-r from-cyan-300 via-blue-500 to-violet-500 bg-clip-text text-transparent px-2 py-1 rounded-lg shadow-[0_0_24px_rgba(59,130,246,0.65)] border border-cyan-400/40\">AI-driven</span> solutions.",
     'Specialized in developing responsive frontends, reliable backend systems, APIs, databases, and <span className="inline-block text-lg md:text-xl 4xl:text-2xl 5xl:text-3xl font-black bg-gradient-to-r from-cyan-300 via-blue-500 to-violet-500 bg-clip-text text-transparent px-2 py-1 rounded-lg shadow-[0_0_24px_rgba(59,130,246,0.65)] border border-cyan-400/40">AI integration</span>.',
     'Focused on using <span className="inline-block text-lg md:text-xl 4xl:text-2xl 5xl:text-3xl font-black bg-gradient-to-r from-cyan-300 via-blue-500 to-violet-500 bg-clip-text text-transparent px-2 py-1 rounded-lg shadow-[0_0_24px_rgba(59,130,246,0.65)] border border-cyan-400/40">LLM</span> and <span className="inline-block text-lg md:text-xl 4xl:text-2xl 5xl:text-3xl font-black bg-gradient-to-r from-fuchsia-400 via-violet-500 to-cyan-400 bg-clip-text text-transparent px-2 py-1 rounded-lg shadow-[0_0_28px_rgba(168,85,247,0.6)] border border-violet-400/40">AI API</span> to automate workflows, improve productivity, and create smarter user experiences.',
     'Projects are approached with an emphasis on clean architecture, maintainable code, and practical technology choices.',
     'Strong attention to delivering useful products without unnecessary complexity or development overhead.',
-    'The goal is to build reliable, scalable solutions that balance quality, functionality, and a reasonable development budget.',
+    'The goal is to build reliable, scalable solutions that balance quality, functionality, and extensibility.',
   ];
 
   return (

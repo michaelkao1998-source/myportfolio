@@ -4,25 +4,27 @@ import { Code2, BrainCircuit, Server, Database } from 'lucide-react';
 
 const services = [
   {
-    title: "E-commerce Developer",
-    icon: <Code2 size={40} className="mb-4 text-primary" />,
-    description: "Modern e-commerce platforms with product catalogs, shopping carts, checkout flows, payment integrations, and order management systems. Creating secure, responsive, and user-friendly online shopping experiences.",
-  },
-  {
-    title: "AI Developer",
-    icon: <BrainCircuit size={40} className="mb-4 text-secondary" />,
-    description: "AI-powered applications by integrating modern AI models, APIs, and intelligent automation into practical software solutions, focusing on creating useful AI features that improve workflows and user experiences.",
-  },
-  {
-    title: "Full Stack Developer",
+    title: "SaaS Development",
     icon: <Server size={40} className="mb-4 text-primary" />,
     description: "End-to-end web application development encompassing frontend technologies, backend services, API integrations, and robust architectures.",
   },
   {
-    title: "Cloud & DevOps Engineer",
+    title: "E-commerce Development",
+    icon: <Code2 size={40} className="mb-4 text-primary" />,
+    description: "Modern e-commerce platforms with product catalogs, shopping carts, checkout flows, payment integrations, and order management systems. Creating secure, responsive, and user-friendly online shopping experiences.",
+  },
+  {
+    title: "Cloud & DevOps",
     icon: <Database size={40} className="mb-4 text-secondary" />,
     description: "Manage cloud environments, CI/CD pipelines, containerized applications, and automated deployment workflows. Reliable infrastructure, scalable systems, and efficient software delivery.",
+  },
+
+  {
+    title: "AI Development",
+    icon: <BrainCircuit size={40} className="mb-4 text-secondary" />,
+    description: "AI-powered applications by integrating modern AI models, APIs, and intelligent automation into practical software solutions, focusing on creating useful AI features that improve workflows and user experiences.",
   }
+
 ];
 
 export default function Services() {

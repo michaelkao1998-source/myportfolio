@@ -1,13 +1,15 @@
 import { motion } from 'framer-motion';
 
 const skills = [
-  { name: 'JavaScript', level: 95 },
-  { name: 'TypeScript', level: 90 },
-  { name: 'Tailwind', level: 95 },
-  { name: 'React.js', level: 85 },
-  { name: 'Next.js', level: 85 },
-  { name: 'CI/CD pipeline', level: 80 },
-  { name: 'Generative AI', level: 80, accent: 'pink' },
+  { name: 'JavaScript/TypeScript', level: 95 },  
+  { name: 'Tailwind CSS', level: 95 },
+  { name: 'React/Next.js', level: 90 },  
+  { name: 'Node/Express.js', level: 95 },
+  { name: 'Java', level: 95 },
+  { name: 'Python', level: 85 },
+  { name: 'MongoDB/PostgreSQL', level: 90 },  
+  { name: 'CI/CD pipeline', level: 85 },
+  { name: 'Generative AI', level: 90, accent: 'green' },
 ];
 
 export default function Skills() {
@@ -29,23 +31,15 @@ export default function Skills() {
 
         <div className="max-w-3xl 4xl:max-w-5xl 5xl:max-w-6xl mx-auto">
           {skills.map((skill, idx) => {
-            const isPink = skill.accent === 'pink';
+            const isGreen = skill.accent === 'green';
 
             return (
               <div key={idx} className="mb-6 4xl:mb-8 5xl:mb-10">
-                <div className="flex justify-between mb-2">
-                  <span
-                    className={`font-semibold ${
-                      isPink
-                        ? 'bg-gradient-to-r from-rose-400 via-pink-500 to-fuchsia-400 bg-clip-text text-transparent'
-                        : 'text-slate-800 dark:text-slate-200'
-                    } 4xl:text-lg 5xl:text-xl`}
-                  >
-                    {skill.name}
-                  </span>
+                <div className="flex justify-between mb-2">    
+                    {skill.name}                
                   <span
                     className={`font-medium 4xl:text-lg 5xl:text-xl ${
-                      isPink ? 'text-pink-500 dark:text-pink-400' : 'text-primary'
+                      isGreen ? 'text-green-500 dark:text-green-400' : 'text-primary'
                     }`}
                   >
                     {skill.level}%
@@ -58,8 +52,8 @@ export default function Skills() {
                     viewport={{ once: true }}
                     transition={{ duration: 1, delay: 0.2 + idx * 0.1, ease: 'easeOut' }}
                     className={`h-full rounded-full relative ${
-                      isPink
-                        ? 'bg-gradient-to-r from-rose-400 via-pink-500 to-fuchsia-400'
+                      isGreen
+                        ? 'bg-gradient-to-r from-green-400 via-green-500 to-green-400'
                         : 'bg-gradient-to-r from-primary to-secondary'
                     }`}
                   >

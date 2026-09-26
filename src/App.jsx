@@ -64,39 +64,39 @@ function App() {
 
       {showFooter && (
         <footer className="fixed bottom-0 left-0 right-0 z-50 border-t border-slate-200/80 bg-white/80 text-slate-700 backdrop-blur-md shadow-[0_-8px_30px_rgba(15,23,42,0.06)] dark:border-white/10 dark:bg-slate-950/80 dark:text-slate-200">
-          <div className="container relative mx-auto flex items-center justify-between gap-4 px-4 py-3">
-            <p className="pointer-events-none text-left text-sm text-slate-500 dark:text-slate-400">
+          <div className="container relative mx-auto flex flex-col gap-3 px-3 py-3 md:flex-row md:items-center md:justify-between md:gap-4 lg:px-4">
+            <p className="pointer-events-none text-left text-xs text-slate-500 dark:text-slate-400 sm:text-sm">
               © 2026 Michael Kao. All rights reserved.
             </p>
 
-            <div className="flex items-center gap-4">
+            <div className="flex flex-wrap items-center justify-center gap-2 md:justify-end md:gap-3">
 
-              <span className="flex items-center gap-2 rounded-full bg-primary/10 px-3 py-2 text-primary" aria-label="Email">
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
-                  <Mail size={18} />
+              <span className="flex items-center gap-2 rounded-full bg-primary/10 px-2 py-1.5 text-primary sm:px-3 sm:py-2" aria-label="Email">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary sm:h-10 sm:w-10">
+                  <Mail size={16} className="sm:h-[18px] sm:w-[18px]" />
                 </span>
-                <span className="text-sm font-medium sm:text-base">michaelkao1998@gmail.com</span>
+                <span className="text-[10px] font-medium sm:text-sm lg:text-base">michaelkao1998@gmail.com</span>
               </span>
 
-              <span className="flex items-center gap-2 rounded-full bg-primary/10 px-3 py-2 text-primary" aria-label="Phone">
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
-                  <Phone size={18} />
+              <span className="flex items-center gap-2 rounded-full bg-primary/10 px-2 py-1.5 text-primary sm:px-3 sm:py-2" aria-label="Phone">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary sm:h-10 sm:w-10">
+                  <Phone size={16} className="sm:h-[18px] sm:w-[18px]" />
                 </span>
-                <span className="text-sm font-medium sm:text-base">+1 708 392 0847</span>
+                <span className="text-[10px] font-medium sm:text-sm lg:text-base">+1 708 392 0847</span>
               </span>
 
-              <span className="flex items-center gap-2 rounded-full bg-primary/10 px-3 py-2 text-primary" aria-label="Telegram">
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
-                  <Send size={18} />
+              <span className="flex items-center gap-2 rounded-full bg-primary/10 px-2 py-1.5 text-primary sm:px-3 sm:py-2" aria-label="Telegram">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary sm:h-10 sm:w-10">
+                  <Send size={16} className="sm:h-[18px] sm:w-[18px]" />
                 </span>
-                <span className="text-sm font-medium sm:text-base">@spicy906</span>
+                <span className="text-[10px] font-medium sm:text-sm lg:text-base">@spicy906</span>
               </span>
 
-              <span className="flex items-center gap-2 rounded-full bg-primary/10 px-3 py-2 text-primary" aria-label="Discord">
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
-                  <Discord size={18} />
+              <span className="flex items-center gap-2 rounded-full bg-primary/10 px-2 py-1.5 text-primary sm:px-3 sm:py-2" aria-label="Discord">
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary sm:h-10 sm:w-10">
+                  <Discord size={16} className="sm:h-[18px] sm:w-[18px]" />
                 </span>
-                <span className="text-sm font-medium sm:text-base">@freshman_0903</span>
+                <span className="text-[10px] font-medium sm:text-sm lg:text-base">@freshman_0903</span>
               </span>
 
             </div>
