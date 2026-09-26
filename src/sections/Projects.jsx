@@ -25,7 +25,7 @@ const projects = [
     longDescription:
       'I built the landing page which organizes important information into sections such as the hero area, product features, customer testimonials, pricing plans, frequently asked questions, and a final call-to-action, making it suitable for startups launching a new software product.The project demonstrates ability to create responsive interfaces, reusable UI sections, animations, pricing layouts, and modern React/Next.js applications.',
     techStack: ['Next.js', 'React', 'Tailwind CSS', 'Framer Motion', 'TypeScript'],
-    github: 'https://github.com/michaelkao1998-source',
+    github: 'https://github.com/michaelkao1998-source/legacy-projects',
     live: 'https://next-saas-lp.vercel.app',
     image: a_gobeyondclicks,
   },
@@ -37,7 +37,7 @@ const projects = [
     longDescription:
       'I took part in developing Doable project, where I was responsible for requirement analysis, AI API integration and frontend design.This can significantly reduce the amount of repetitive development work required to create prototypes and internal business applications. It is particularly useful for startups, developers, agencies, and teams that want to turn an idea into a functional application quickly.',
     techStack: ['Typescript','React', 'Tailwind CSS', 'AI integration'],
-    github: 'https://github.com/michaelkao1998-source',
+    github: 'https://github.com/michaelkao1998-source/legacy-projects',
     live: 'https://doable.me',
     image: c_doable,
   },
@@ -49,7 +49,7 @@ const projects = [
     longDescription:
       'I focused on responsive design to allow the same product presentation to work across desktop, tablet, and mobile screens, while Framer Motion provides smooth visual transitions and interactive elements. It demonstrates more than visual design: you can show knowledge of component-based React development, Next.js application structure, responsive styling, server-side rendering, animation, and reusable UI architecture.',
     techStack: ['Next.js', 'React', 'Tailwind CSS', 'Framer Motion', 'TypeScript'],
-    github: 'https://github.com/michaelkao1998-source',
+    github: 'https://github.com/michaelkao1998-source/legacy-projects',
     live: 'https://saas-landing-nextjs.vercel.app',
     image: b_pathway,
     
@@ -62,7 +62,7 @@ const projects = [
     longDescription:
       'Spree Storefront is an actual open-source headless e-commerce storefront built on top of the Spree Commerce platform, with a real deployed demo rather than simply being a static design or UI template. It provides product browsing, search, filtering, product variants, shopping cart functionality, customer accounts, and a one-page checkout. I researched Spree REST API for Stripe, PayPal, and Adyen payment integration and contributed to the frontend design and implementation.',
     techStack: ['React', 'Next.js', 'Tailwind CSS', 'TypeScript', 'Spree REST API'],
-    github: 'https://github.com/michaelkao1998-source',
+    github: 'https://github.com/michaelkao1998-source/legacy-projects',
     live: 'https://demo.spreecommerce.org',
     image: d_spreestorefront,
   },
@@ -76,7 +76,7 @@ const projects = [
       'The application is particularly interesting from an AI engineering perspective because it represents a RAG-style workflow. I involved in RAG API integration which designed around company-specific information that can be supplied through documents and other knowledge sources.',
     techStack: ['Next.js', 'Tailwind CSS', 'TypeScript', 'PostgreSQL', 'RAG API'],
     
-    github: 'https://github.com/michaelkao1998-source',
+    github: 'https://github.com/michaelkao1998-source/legacy-projects',
     live: 'https://knowbase-ai.netlify.app',
     image: f_knowbase,
   },
@@ -89,7 +89,7 @@ const projects = [
     longDescription:
       'Luxe is a responsive fashion e-commerce website designed around a modern online shopping experience, with a Next.js frontend connected to a Strapi headless CMS for managing store content and products. I demonstrated several practical fullstack skills like global cart state, image optimization, headless CMS integration, responsive UI, and animation.',
     techStack: ['Next.js', 'TypeScript', 'Framer Motion', 'Strapi'],    
-    github: 'https://github.com/michaelkao1998-source',
+    github: 'https://github.com/michaelkao1998-source/legacy-projects',
     live: 'https://luxe-store.vercel.app',
     image: e_luxe,
   },
