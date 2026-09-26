@@ -45,7 +45,7 @@ export default function About() {
             </div>
 
             <a
-              href="/resume.pdf"
+              href="/Michael_Software Developer_Resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="mx-auto mt-8 flex w-full max-w-[220px] items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-base font-semibold text-white transition-colors duration-300 hover:bg-secondary focus:outline-none focus:ring-4 focus:ring-primary/30 md:px-8"
